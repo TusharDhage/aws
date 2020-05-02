@@ -1,0 +1,19 @@
+*****S3(Storage Engine)/(upload/download)*****
+webhosting->static 
+pages->react->dynamic
+
+1.search s3 in console.
+2.Bucket(folder)
+3.create bucket.
+4.add unique bucket name.
+5.then add folder in it as follow by files in it.
+6.this is like storing files in folder.
+7.for enable file to public click on properties.
+8.then click on static website hosting.
+9.click on use this bucket to host website and put file name to click
+ and if error occur then destination file name also fillup.
+10.click on save and u can see bucket hosting mark on this static web hosting block.
+11.then go on overview and right clck on file and make it public.
+12.open this url which pop up in right side of screen then u can see what is in this file.
+
+ 
