@@ -3,7 +3,8 @@
 Choosing the right AWS storage service for your data means finding the closest match in terms of data availability,
 durability, and performance.
 
-**Note**
+**Note:-**
+
 Availability refers to a storage volume’s ability to deliver data upon request. Performance refers to the number of IOPS 
 or the amount of throughput (measured in megabytes per second) that the storage volume can deliver.
 
@@ -27,13 +28,6 @@ but higher charges to retrieve or transfer data.
 or regulatory backups. Different methods of data retrieval are available at various speeds and cost.
 Retrieval can take from a few minutes to several hours.
 
-The following table shows comparative pricing for Amazon S3.
-
-**Amazon S3 Pricing** 	      **Per Gigabyte-Month**
-  Amazon S3                   	$0.023
-  Amazon S3 Standard - IA	      $0.0125 (plus $0.01/GB retrieval charge)
-  Amazon Glacier	              $0.004
-*Based on US East (N. Virginia) prices.
 
 # Block storage
 **Amazon Elastic Block Store (Amazon EBS)** volumes provide a durable block-storage option for use with EC2 instances.
@@ -56,17 +50,6 @@ There are two types of HDD volumes:
 
 ***Cold HDD (sc1) –** Designed for less frequently accessed, throughput-intensive workloads.
 
-The following table shows comparative pricing for Amazon EBS.
-
-**Amazon EBS Pricing**	              **Per Gigabyte-Month**
-General Purpose SSD (gp2)       	$0.10 per GB-month of provisioned storage
-Provisioned IOPS SSD (io1)      	$0.125 per GB-month of provisioned storage, plus $0.065 per provisioned IOPS-month
-Throughput Optimized HDD (st1)	  $0.045 per GB-month of provisioned storage
-Cold HDD (sc1)                  	$0.025 per GB-month of provisioned storage
-Amazon EBS Snapshots to           $0.05 per GB-month of data stored
-Amazon S3	
-
-*Based on US East (N. Virginia) prices.
 
 # File storage
 **Amazon Elastic File System (Amazon EFS)** provides simple, scalable file storage for use with EC2 instances.
