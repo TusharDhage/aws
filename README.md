@@ -12,8 +12,11 @@ Now that we know what we can do with AWS, lets have an overview of various AWS s
 
 # Basic Terminologies
 **1.Region —** A region is a geographical area. Each region consists of 2 (or more) availability zones.
+
 **2.Availability Zone —** It is simply a data center.
+
 **3.Edge Location —** They are CDN (Content Delivery Network) endpoints for CloudFront.
+
 
 # Compute
 **1.EC2 (Elastic Compute Cloud) —** These are just the**virtual machines** in the cloud on which you have the OS level control. 
