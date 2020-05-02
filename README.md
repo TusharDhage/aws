@@ -1,4 +1,5 @@
-# aws
+# DATABASE-RDS
+
 **Amazon Relational Database Service Documentation**
 
 Amazon Relational Database Service (Amazon RDS) is a web service that makes it easier to set up, 
@@ -32,7 +33,7 @@ can also help protect your databases by putting them in a virtual private cloud.
 
 The basic building block of Amazon RDS is the DB instance. A DB instance is an isolated database
 environment in the AWS Cloud. Your DB instance can contain multiple user-created databases. You
-can access your DB instance by using the same tools and applications that you use with a standalone
+can access your DB instance by using the same tools and applications that you use with a standalone.
 
 
 database instance. You can create and modify a DB instance by using the AWS Command Line Interface,
