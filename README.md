@@ -1,6 +1,4 @@
-# aws
-
-***Security, Identity, & Compliance***
+# Security, Identity, & Compliance
 
 *****What is IAM?*****
 AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources.
