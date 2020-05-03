@@ -27,12 +27,17 @@
 - Login to your AWS account and go to the AWS Services tab at the top left corner.
  
 - Here, you will see all of the AWS Services categorized as per their area viz. Compute, Storage, Database, etc.
-  For creating an EC2 instance, we have to choose Computeà EC2 as in the next step.
+  For creating an EC2 instance, we have to choose Compute EC2 as in the next step.
+  
+  <img src="images/click ec2.png">
 
 - Open all the services and click on `EC2` under Compute services. This will launch the dashboard of EC2.
+- Here is the EC2 dashboard. Here you will get all the information in gist about the AWS EC2 resources running.
+<img src="images/running instance dashboard.png" width=700 height=300>
 
 **Step 2)** On the top right corner of the EC2 dashboard, choose the AWS Region in which you want to provision the EC2 server.
 
+<img src="images/
 - Here we are selecting N. Virginia. AWS provides 10 Regions all over the globe.
 
 
