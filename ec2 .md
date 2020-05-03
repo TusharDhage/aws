@@ -29,19 +29,18 @@
 - Here, you will see all of the AWS Services categorized as per their area viz. Compute, Storage, Database, etc.
   For creating an EC2 instance, we have to choose Computeà EC2 as in the next step.
 
-- Open all the services and click on EC2 under Compute services. This will launch the dashboard of EC2.
+- Open all the services and click on `EC2` under Compute services. This will launch the dashboard of EC2.
 
 **Step 2)** On the top right corner of the EC2 dashboard, choose the AWS Region in which you want to provision the EC2 server.
 
 - Here we are selecting N. Virginia. AWS provides 10 Regions all over the globe.
 
-![alt text](launch instance.png/400/300)
 
 **Step 3)** In this step
 
 - Once your desired Region is selected, come back to the EC2 Dashboard.
 
-- Click on 'Launch Instance' button in the section of Create Instance.
+- Click on `Launch Instance` button in the section of Create Instance.
 
 - Instance creation wizard page will open as soon as you click `Launch Instance`. 
 
@@ -51,7 +50,7 @@
 
 **1.** You will be asked to choose an AMI of your choice. (An AMI is an Amazon Machine Image. It is a template basically of an Operating 
        System platform which you can use as a base to create your instance). Once you launch an EC2 instance from your preferred AMI,
-       the instance will automatically be booted with the desired OS. (We will see more about AMIs in the coming part of the tutorial).
+       the instance will automatically be booted with the desired OS. 
 
 **2.** Here we are choosing the default Amazon Linux (64 bit) AMI.
 
@@ -89,7 +88,7 @@
 
 **Step 5)** In this step,
 
-- Click on 'Add Storage' to add data volumes to your instance in next step.
+- Click on `Add Storage` to add data volumes to your instance in next step.
 
 
 ## Add Storage
@@ -111,8 +110,8 @@
 - you can tag your instance with a key-value pair (Name),This gives visibility to the AWS account administrator when there are lot number of instances.
 - The instances should be tagged based on their department, environment like Dev/SIT/Prod. Etc. this gives a clear view of the costing on the instances 
    under one common tag.
-  - Here we have tagged the instance as a tushar-demo.
-  - Go to configure Security Groups later.
+  - Here we have tagged the instance as a `tushar-demo`.
+  - Go to `configure Security Groups` later.
 
 
 ## Configure Security Groups
@@ -128,7 +127,7 @@ You can define open ports and IPs.
   - Naming our SG for easier reference
   - Defining protocols which we want enabled on my instance
   - Assigning IPs which are allowed to access our instance on the said protocols
-  - Once, the firewall rules are set- Review and launch.
+  - Once, the firewall rules are set- `Review and launch`.
 
 
 ## Review Instances
@@ -148,8 +147,8 @@ You can define open ports and IPs.
 
 - You can see the launch status meanwhile.
 - You can also see the launch log.
-- Click on the 'Instances' option on the left pane where you can see the status of the instance as 'Pending' for a brief while.
-- Once your instance is up and running, you can see its status as 'Running' now.
+- Click on the `Instances` option on the left pane where you can see the status of the instance as `Pending` for a brief while.
+- Once your instance is up and running, you can see its status as `Running` now.
 - Note that the instance has received a Private IP from the pool of AWS.
 
 
