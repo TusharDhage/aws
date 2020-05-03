@@ -11,25 +11,26 @@ Send bulk email to your customers.
 Now that we know what we can do with AWS, lets have an overview of various AWS services.
 
 Below this information we will see:
-- [Basic Terminologies]
-- [Compute]
-- [Storage]
-- [Databases]
-- [Migration]
-- [Networking & Content Delivery]
-- [Developer Tools]
-- [Management Tools]
-- [Analytics]
-- [Security, Identity, and Compliance]
-- [Application Services]
-- [Mobile Services]
-- [Business Productivity]
-- [Desktop & App Streaming]
-- [Artificial Intelligence]
-- [AR & VR (Augmented Reality & Virtual Reality)]
-- [Customer Engagement]
-- [Game Development]
-- [Internet of Things
+- [Basic Terminologies](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Compute](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Storage](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Databases](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Migration](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Networking & Content Delivery](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Developer Tools](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Management Tools](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Analytics](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Security, Identity, and Compliance](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Application Services](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Mobile Services](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Business Productivity](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Desktop & App Streaming](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Artificial Intelligence](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [AR & VR (Augmented Reality & Virtual Reality)](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Customer Engagement](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Game Development](https://console.aws.amazon.com/console/home?region=us-east-1#)
+- [Internet of Things](https://console.aws.amazon.com/console/home?region=us-east-1#)
+
 
 # Basic Terminologies
 **1.Region —** A region is a geographical area. Each region consists of 2 (or more) availability zones.
