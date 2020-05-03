@@ -1,6 +1,6 @@
 # To Create File In Linux CMD Use Following Commands:
 
-**1.* *ls
+**1.pwd-**- show current file path
 
 **2.mkdir folder_name-** create directory
 
