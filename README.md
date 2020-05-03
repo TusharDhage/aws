@@ -1,6 +1,6 @@
 # AWS
 
-**Amazon Web Services (AWS)** is a secure cloud services platform, offering compute power, database storage,
+`Amazon Web Services (AWS)` is a secure cloud services platform, offering compute power, database storage,
 content delivery and other functionality to help businesses scale and grow.
 In simple words AWS allows you to do the following things-
 Running web and application servers in the cloud to host dynamic websites.
@@ -9,6 +9,27 @@ Using managed databases like MySQL, PostgreSQL, Oracle or SQL Server to store in
 Deliver static and dynamic files quickly around the world using a Content Delivery Network (CDN).
 Send bulk email to your customers.
 Now that we know what we can do with AWS, lets have an overview of various AWS services.
+
+Below this information we will see:
+- [Basic Terminologies]
+- [Compute]
+- [Storage]
+- [Databases]
+- [Migration]
+- [Networking & Content Delivery]
+- [Developer Tools]
+- [Management Tools]
+- [Analytics]
+- [Security, Identity, and Compliance]
+- [Application Services]
+- [Mobile Services]
+- [Business Productivity]
+- [Desktop & App Streaming]
+- [Artificial Intelligence]
+- [AR & VR (Augmented Reality & Virtual Reality)]
+- [Customer Engagement]
+- [Game Development]
+- [Internet of Things
 
 # Basic Terminologies
 **1.Region —** A region is a geographical area. Each region consists of 2 (or more) availability zones.
@@ -19,7 +40,7 @@ Now that we know what we can do with AWS, lets have an overview of various AWS s
 
 
 # Compute
-**1.EC2 (Elastic Compute Cloud) —** These are just the**virtual machines** in the cloud on which you have the OS level control. 
+**1.EC2 (Elastic Compute Cloud) —** These are just the **virtual machines** in the cloud on which you have the OS level control. 
     You can run whatever you want in them.
 
 **2.LightSail —** If you don’t have any prior experience with AWS this is for you. It **automatically deploys** and manages compute, 
