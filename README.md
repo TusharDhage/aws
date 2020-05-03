@@ -37,7 +37,8 @@
 
 **Step 2)** On the top right corner of the EC2 dashboard, choose the AWS Region in which you want to provision the EC2 server.
 
-<img src="images/
+<img src="images/loc.png" width=300 height=400>
+
 - Here we are selecting N. Virginia. AWS provides 10 Regions all over the globe.
 
 
@@ -46,6 +47,8 @@
 - Once your desired Region is selected, come back to the EC2 Dashboard.
 
 - Click on `Launch Instance` button in the section of Create Instance.
+
+<img src="images/launch instance.png">
 
 - Instance creation wizard page will open as soon as you click `Launch Instance`. 
 
@@ -59,6 +62,8 @@
 
 **2.** Here we are choosing the default Amazon Linux (64 bit) AMI.
 
+<img src="images/step 1 choose ami.png">
+
 ## Choose EC2 Instance Types
 
 **Step 1)** In the next step, you have to choose the type of instance you require based on your business needs.
@@ -66,6 +71,8 @@
 **1.** We will choose t2.micro instance type, which is a 1vCPU and 1GB memory server offered by AWS.
 
 **2.** Click on `Configure Instance Details` for further configurations.
+
+<img src="images/step 2 instance type.png">
   
 - In the next step of the wizard, enter details like no. of instances you want to launch at a time.
 
@@ -74,24 +81,13 @@
 
 ## Configure Instance
 
-**Step 1)** No. of instances- you can provision up to 20 instances at a time. Here we are launching one instance.
+**Step 1)** No. of instances- we can provision up to 20 instances at a time. Here we are launching one instance.
 
-**Step 2)** Under Purchasing Options, keep the option of 'Request Spot Instances' unchecked as of now. 
-           (This is done when we wish to launch Spot instances instead of on-demand ones. We will come back to Spot instances in the later part of the tutorial).
+**Step 2)** In this step,
 
-**Step 3)** Next, we have to configure some basic networking details for our EC2 server.
+- We are not changing any parameter so keep it default.
 
-- Here I have selected an already existing default VPC where I want to launch my instance.
-
-**Step 4)** In this step,
-
-- A VPC consists of subnets, which are IP ranges that are separated for restricting access.
- 
-  - Under Subnets, you can choose the subnet where you want to place your instance.
-  - I have chosen an already existing public subnet.
-  - You can also create a new subnet in this step.
-
-**Step 5)** In this step,
+<img src="images/step 3 configere instance detail.png">
 
 - Click on `Add Storage` to add data volumes to your instance in next step.
 
@@ -107,6 +103,8 @@
 
 - AWS provides 3 types of EBS volumes- Magnetic, General Purpose SSD, Provisioned IOPs. You can choose a volume type based on your application's IOPs needs.
 
+<img src="images/step 4 add storage.png">
+
 
 ## Tag Instance
 
@@ -115,8 +113,9 @@
 - you can tag your instance with a key-value pair (Name),This gives visibility to the AWS account administrator when there are lot number of instances.
 - The instances should be tagged based on their department, environment like Dev/SIT/Prod. Etc. this gives a clear view of the costing on the instances 
    under one common tag.
-  - Here we have tagged the instance as a `tushar-demo`.
+  - Here we have tagged the instance as a `tushar`.
   - Go to `configure Security Groups` later.
+  <img src="images/step 5 add tag.png">
 
 
 ## Configure Security Groups
@@ -133,25 +132,29 @@ You can define open ports and IPs.
   - Defining protocols which we want enabled on my instance
   - Assigning IPs which are allowed to access our instance on the said protocols
   - Once, the firewall rules are set- `Review and launch`.
+   <img src="images/step 6 configure security group.png">
 
 
 ## Review Instances
 
 **Step 1)** In this step, we will review all our choices and parameters and go ahead to launch our instance.
+<img src="images/step 7 review launch instance.png">
 
 **Step 2)** In the next step you will be asked to create a key pair to login to you an instance. A key pair is a set of public-private keys.
 
 - AWS stores the private key in the instance, and you are asked to download the private key. Make sure you download the key and keep it safe and secured;
   if it is lost you cannot download it again.
+  <img src="images/step 8 create key.png">
 
  - Create a new key pair
  - Give a name to your key
  - Download and save it in your secured folder
 
 **Step 3)** Once you are done downloading and saving your key, launch your instance.
-
+<img src="images/step 9 launch instance.png">
 - You can see the launch status meanwhile.
 - You can also see the launch log.
+<img src="images/step 10.png">
 - Click on the `Instances` option on the left pane where you can see the status of the instance as `Pending` for a brief while.
 - Once your instance is up and running, you can see its status as `Running` now.
 - Note that the instance has received a Private IP from the pool of AWS.
