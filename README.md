@@ -8,6 +8,9 @@ Securely store all your files on the cloud so you can access them from anywhere.
 Using managed databases like MySQL, PostgreSQL, Oracle or SQL Server to store information.
 Deliver static and dynamic files quickly around the world using a Content Delivery Network (CDN).
 Send bulk email to your customers.
+
+<img src="img/aws management console.png" width=800 height=400>
+
 Now that we know what we can do with AWS, lets have an overview of various AWS services.
 
 Below this information we will see:
