@@ -6,15 +6,15 @@
 
 - step 2. Check whether you have g++ complier in your system.
 
-`In my system i needed to download it as follow`
+*In my system i needed to download it as follow*
 
 There are Two ways You can check for g++ compiler
 
-$ dpkg --list command
+`$ dpkg --list`
 
 when you run this command you will get list of compiler your system has.in which you can find for g++ compiler.
 
-$ g++ --version/ gcc --version
+`g++ --version/ gcc --version`
 
 when you run this command you will get like this message on terminal.
 
@@ -22,9 +22,12 @@ when you run this command you will get like this message on terminal.
 
 If you are getting error finding g++ compiler then you can run this command
 
-$ sudo yum -y install gcc-c++
+`sudo yum -y install gcc-c++`
 
 using this command you can install g++ compiler.
+
+<img src="img/1 install gcc.png">
+
 
 - step 3: Make one folder name `cpp`
 
@@ -66,11 +69,5 @@ this command will give you output.
 
 <img src="img/op.png">
 
-So, these are the steps to compile and execute the cpp files in linux.
+*This is how we create and run program on linux*
 
-here are some more examples to try on:
-
-FUNCTION CALL FROM ANOTHER CLASS
-STRING CONCANATION
-VIRTUAL FUNCTION
-FIBONACCI SERIES
