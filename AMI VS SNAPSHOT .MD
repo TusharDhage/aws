@@ -2,7 +2,7 @@
 
 
    |  PARAMETERS  |  AMI  |  SNAPSHOT  |
-   |  ```  |  ```  |  ```  |
+   |  ---  |  ---  |  ---  |
    |  SERVICE  | Associate With EC2 Instance  | Associate With EBS Instance  |
    |  IT IS  |  Bootable copy of the whole EC2 instance  |  Backup of the data on EBS  |
    |  USE  |  use to store current instance configuation  |  use to store many instance configuration  |
