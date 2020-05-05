@@ -1,8 +1,9 @@
 # LAMBDA FUNCTION
 
 ```
-AWS Lambda is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for us.
-We can use AWS Lambda to extend other AWS services with custom logic, or create your own back-end services that operate at AWS scale, performance and security.
+AWS Lambda is a serverless compute service that runs your code in response to events and automatically 
+manages the underlying compute resources for us.We can use AWS Lambda to extend other AWS services with custom logic,
+or create your own back-end services that operate at AWS scale, performance and security.
 ```
 
 
