@@ -1,4 +1,4 @@
-# LAMBDA FUNCTION
+# LAMBDA FUNCTION            <img src="lambda/lamb.png" width=350 height=200>
 
 ```
 AWS Lambda is a serverless compute service that runs your code in response to events and automatically 
