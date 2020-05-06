@@ -45,14 +45,17 @@ Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Inte
           Now we are going to create IAM roles here.
 
 <img src="SNS/12.png">
+
 > so right click on create role.it will open new window.on that window u will file creation for two roles do not change anything and       click on Allow.
 
 
 <img src="SNS/13.png">
-> now we have to use this role in our topic.so again go to the topic creation window.and select use existing service role.
+
+> now we have to use this role in our topic.so again go to the topic creation window.and select use existing service role
  
- Here we are not getting the list for IAM's so we have to go to IAM services window.for that go to services menu.search for 
-  IAM.go to IAM window.click on roles in left side menu.
+
+Here we are not getting the list for IAM's so we have to go to IAM services window.for that go to services menu.search for IAM.
+go to IAM window.click on roles in left side menu.
 
 
 <img src="SNS/20.1.png">
@@ -66,7 +69,7 @@ Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Inte
 
 <img src="SNS/14.png">
 
-> Now click on `create topic` then you will see your topic in the list.
+> Now click on `create topic` then you will see your topic in the list
 
 <img src="SNS/3.png">
 
@@ -74,7 +77,7 @@ Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Inte
 
 <img src="SNS/4.png">
 
-> select Email from the list of protocol.Enter your email-id.and click on create subscription.
+> select Email from the list of protocol.Enter your email-id.and click on create subscription
 
 <img src="SNS/5.png">
 
@@ -85,7 +88,8 @@ Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Inte
 - step10: now you have to confirm the subscrprition from the link which is sent to you in your email.
 
 <img src="SNS/8 check email and confirm.png">
-> now you canse status is now confirmed.
+
+> now you canse status is now confirmed
 
 <img src="SNS/8 now it is confirm.png">
 
@@ -96,6 +100,7 @@ Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Inte
           and select your created SNS topics from the options.
 
 <img src="SNS/9 s3 event.png">
+
 > now we have one active event
 
 <img src="SNS/16.png">
@@ -103,7 +108,8 @@ Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Inte
 - step 2: now go to overview in menu.upload any after successfull uploading check you get a email or not.
 
 <img src="SNS/25.png">
-> after confirm this link on email you will see subscribtion is completed.
+
+> after confirm this link on email you will see subscribtion is completed
 
 <img src="SNS/15.png">
 
@@ -113,10 +119,12 @@ Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Inte
 **step 1:** select 1 ec2 from the list.click on create status check alarm.
 
 <img src="SNS/ala.1.png">
+
 > select sent to and select your sns from options.choose your alarm configurations as below image
 
 <img src="SNS/ala.png">
-> stop and start again your EC2 for alarm status change.Now you will get email as per your alarm configurations.
+
+> stop and start again your EC2 for alarm status change.Now you will get email as per your alarm configurations
 
 
 
