@@ -1,16 +1,12 @@
-# SNS(Simple Notification Server)
+# SNS (Simple Notification Server)
 
 ```
-Amazon Simple Notification Service (SNS) is a highly available, durable, secure,
- fully managed pub/sub messaging service that enables you to decouple microservices,
- distributed systems, and serverless applications. Amazon SNS provides topics for
- high-throughput, push-based, many-to-many messaging. Using Amazon SNS topics, your 
- publisher systems can fan out messages to a large number of subscriber endpoints for 
- parallel processing, including Amazon SQS queues, AWS Lambda functions, and HTTP/S webhooks.
- Additionally, SNS can be used to fan out notifications to end users using mobile push, SMS, and email.
-
-You can get started with Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Interface (CLI),
-or AWS Software Development Kit (SDK).
+Amazon Simple Notification Service (SNS) is a highly available, durable, secure,fully managed pub/sub messaging service
+that enables you to decouple microservices,distributed systems, and serverless applications. Amazon SNS provides topics 
+for high-throughput, push-based, many-to-many messaging. Using Amazon SNS topics, your publisher systems can fan out messages
+to a large number of subscriber endpoints for parallel processing, including Amazon SQS queues, AWS Lambda functions, and HTTP/S webhooks.
+Additionally, SNS can be used to fan out notifications to end users using mobile push, SMS, and email.You can get started with
+Amazon SNS in minutes by using the AWS Management Console, AWS Command Line Interface (CLI),or AWS Software Development Kit (SDK).
 ```
 
 ## Benefits
@@ -25,9 +21,9 @@ or AWS Software Development Kit (SDK).
 
 <img src="SNS/0.1.png">
 
-
-## *Publisher*:- It is basically sender in our condition it is AWS.	
-## *Subscriber*:- It is basically receiver i.e us.
+ ***Publisher***:- It is basically sender in our condition it is AWS.	
+ 
+ ***Subscriber***:- It is basically receiver i.e us.
 
 ## Steps to create Topic
 
@@ -49,12 +45,14 @@ or AWS Software Development Kit (SDK).
           Now we are going to create IAM roles here.
 
 <img src="SNS/12.png">
->so right click on create role.it will open new window.on that window u will file creation for two roles do not change anything and click on Allow.
+> so right click on create role.it will open new window.on that window u will file creation for two roles do not change anything and       click on Allow.
 
 
 <img src="SNS/13.png">
->now we have to use this role in our topic.so again go to the topic creation window.and select use existing service role.here we are not getting the list 
-for IAM's so we have to go to IAM services window.for that go to services menu.search for IAM.go to IAM window.click on roles in left side menu.
+> now we have to use this role in our topic.so again go to the topic creation window.and select use existing service role.
+ 
+ Here we are not getting the list for IAM's so we have to go to IAM services window.for that go to services menu.search for 
+  IAM.go to IAM window.click on roles in left side menu.
 
 
 <img src="SNS/20.1.png">
@@ -63,13 +61,12 @@ for IAM's so we have to go to IAM services window.for that go to services menu.s
 
 <img src="SNS/21.png">
 
->select SNSFailureFeedback and the SNSSuccessFeedback go inside copy its ARN and paste it to the IAM role for successful deliveries box.
- and do it same for IAM role for failuer deliveries.
+> select SNSFailureFeedback and the SNSSuccessFeedback go inside copy its ARN and paste it to the IAM role for successful deliveries box   and do it same for IAM role for failuer deliveries.
 
 
 <img src="SNS/14.png">
 
->Now click on `create topic` then you will see your topic in the list.
+> Now click on `create topic` then you will see your topic in the list.
 
 <img src="SNS/3.png">
 
@@ -77,7 +74,7 @@ for IAM's so we have to go to IAM services window.for that go to services menu.s
 
 <img src="SNS/4.png">
 
->select Email from the list of protocol.Enter your email-id.and click on create subscription.
+> select Email from the list of protocol.Enter your email-id.and click on create subscription.
 
 <img src="SNS/5.png">
 
@@ -88,18 +85,18 @@ for IAM's so we have to go to IAM services window.for that go to services menu.s
 - step10: now you have to confirm the subscrprition from the link which is sent to you in your email.
 
 <img src="SNS/8 check email and confirm.png">
->now you canse status is now confirmed.
+> now you canse status is now confirmed.
 
 <img src="SNS/8 now it is confirm.png">
 
-##Use of SNS to our S3 event.(s3 as publisher)
+## Use of SNS to our S3 event.(s3 as publisher)
 
 - step 1: Go inside your already created s3.Go the properties and select Events.click on add notification.
           name the event.select All object create events from the options.then select 'SNS' in sent to options
           and select your created SNS topics from the options.
 
 <img src="SNS/9 s3 event.png">
->now we have one active event
+> now we have one active event
 
 <img src="SNS/16.png">
 
@@ -116,10 +113,10 @@ for IAM's so we have to go to IAM services window.for that go to services menu.s
 **step 1:** select 1 ec2 from the list.click on create status check alarm.
 
 <img src="SNS/ala.1.png">
->select sent to and select your sns from options.choose your alarm configurations as below image
+> select sent to and select your sns from options.choose your alarm configurations as below image
 
 <img src="SNS/ala.png">
->stop and start again your EC2 for alarm status change.Now you will get email as per your alarm configurations.
+> stop and start again your EC2 for alarm status change.Now you will get email as per your alarm configurations.
 
 
 
