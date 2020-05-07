@@ -17,7 +17,7 @@ or via JDBC / ODBC DB APIs
 You can connect to the RDS instance from any internet enabled client system / application ( provided appropriate firewall rules have been enabled )
 By extension to the previous point, you can connect to the RDS from your app running in EC2.
 
-# PS :
+**PS** :
 
 You can install a database server in EC2 and use it / configure as you wish; but remember doing that you will hold the responsibility of the DB's uptime 
 and health as it becomes an app running in the EC2.
