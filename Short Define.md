@@ -4,7 +4,7 @@
 - we can update,delete create any resource uisng aws cli
 - we use secret key and access key to access aws from outside while we use `IAM Role` in the AWS but we can use secret key and access key.
 
-> To configure AWS CLI,we edit `credentials file`  from AWS and copy acccount details in it.
+> To configure AWS CLI,We edit `credentials file`  from AWS and copy acccount details in it.
 
 
 ___
@@ -22,8 +22,6 @@ ___
 - You dont own server
 - Zero maintenance
 - Auto scalability
-
-# Lambda function
 - No server
 - Aws charge only for instance running while it doesnt charge to store our code 
 - When run the code we pay only for amount of cpu we used
